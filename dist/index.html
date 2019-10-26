@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Salt'n'Prepper Meal Prepping!</title>
+</head>
+
+<body>
+        <div class="container">
+                <header class="header">
+                    <img src="img/logo.png" alt="Logo" class="header__logo">
+                    
+                    <div class="settings">
+                        <div class="settings__field">
+                            <svg class="settings__icon">
+                                <use href="img/icon-settings.svg#surface2105359"></use>
+                            </svg>
+                        </div>
+                        <div class="settings__panel">
+
+                            <ul class="settings__list">
+                                <li class="settings__item">
+                                    <div class="settings__count">
+                                        <p>Minimum protein</p>
+                                        <input type="number" value="1" min="1" step="5" class="settings__count-value" id="minProtein">
+                                        <p>Maximum protein</p>
+                                        <input type="number" value="500"  min="1" step="5" class="settings__count-value" id="maxProtein">
+                                    </div>
+                                </li>
+                                <li class="settings__item">
+                                    <div class="settings__count">
+                                        <p>Minimum carbs</p>
+                                        <input type="number" value="1" step="5"  min="1" class="settings__count-value" id="minCarbs">
+                                        <p>Maximum carbs</p>
+                                        <input type="number" value="500" step="5"  min="1" class="settings__count-value" id="maxCarbs">
+                                    </div>
+                                </li>
+                                <li class="settings__item">
+                                    <div class="settings__count">
+                                        <p>Minimum fats</p>
+                                        <input type="number" value="1" step="5"  min="1" class="settings__count-value" id="minFat">
+                                        <p>Maximum fats</p>
+                                        <input type="number" value="500" step="5"  min="1" class="settings__count-value" id="maxFat">
+                                    </div>
+                                </li> 
+                                <li class="settings__item">
+                                    <div class="settings__count">
+                                        <p>Minimum fiber</p>
+                                        <input type="number" value="1" step="5"  min="1" class="settings__count-value" id="minFiber">
+                                        <p>Maximum sugar</p>
+                                        <input type="number" value="500" step="5"  min="1" class="settings__count-value" id="maxSugar">
+                                    </div>
+                                </li>
+                                <li class="settings__item">
+                                    <div class="settings__count">
+                                        <p>Maximum calories</p>
+                                        <input type="number" value="10000" step="5"  min="1" class="settings__count-value" id="maxCalories">
+                                        <p>Maximum time (m)</p>
+                                        <input type="number" value="500" step="5"  min="1" class="settings__count-value" id="maxTime">
+                                    </div>
+                                </li>
+                               
+                                <li>
+                                    <p style= 'text-align: center; font-size: 1.2rem; font-style: italic; font-weight: bold; margin-top: 1.5rem;'>Enter desired macro-nutrients per recipe in grams.</p>
+                                </li>
+                               
+                            </ul>
+                                
+                        </div>
+                    </div>
+        
+                    <form class="search">
+                        <input type="text" class="search__field" placeholder="Search over 2,000,000 recipes">
+                        <button class="btn search__btn">
+                            <svg class="search__icon">
+                                <use href="img/icons.svg#icon-magnifying-glass"></use>
+                            </svg>
+                            <span>Search</span>
+                        </button>
+                    </form>
+                    <div class="likes">
+                        <div class="likes__field">
+                            <svg class="likes__icon">
+                                <use href="img/icons.svg#icon-heart"></use>
+                            </svg>
+                        </div>
+                        <div class="likes__panel">
+                            <ul class="likes__list">
+                             
+                            </ul>
+                        </div>
+                    </div>
+                </header>
+        
+        
+                <div class="results">
+                    <ul class="results__list">
+                 
+                    </ul>
+        
+                    <div class="results__pages">
+                  
+                    </div>
+                </div>
+        
+        
+        
+                <div class="recipe">
+                    <h3 class="heading-3">Meal Prep Made Easy!</h2>
+
+                    <img src="img/logo.png" alt="Logo" class="big__logo">
+                   
+                </div>
+        
+        
+                <div class="shopping">
+                    <h2 class="heading-2">My Shopping List</h2>
+        
+                    <ul class="shopping__list">
+        
+                    </ul>
+        
+                    <div class="copyright">
+                        &copy; by Ryan Menot using Edamam API.
+                    </div>
+        
+                </div>
+            </div>
+
+    <!-- <script  src="js/bundle.js"></script> -->
+<script type="text/javascript" src="js/bundle.js"></script></body>
+
+</html>
