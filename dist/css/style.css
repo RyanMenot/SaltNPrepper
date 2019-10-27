@@ -28,10 +28,11 @@ body {
 .container {
   max-width: 120rem;
   margin: 4vw auto;
-  background-color: #fff;
+  /*background-color: #fff;*/
+  background-color: rgba(255, 255, 255, 0);
   border-radius: 6px;
   overflow: hidden;
-  box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);
+  /*box-shadow: 0 2rem 6rem 0.5rem rgba(101, 90, 86, 0.2);*/
   display: grid;
   grid-template-rows: 10rem minmax(100rem, auto);
   grid-template-columns: 1.1fr 2fr 1.1fr;
@@ -130,6 +131,7 @@ body {
     margin-right: .3rem; }
 
 .heading-2 {
+  opacity: 0;
   font-size: 1.8rem;
   font-weight: 600;
   color: #F59A83;
@@ -138,13 +140,17 @@ body {
   text-align: center;
   transform: skewY(-3deg); }
   .heading-3 {
+    opacity: 0;
     font-size: 1.8rem;
-    padding-top: 3rem;
+    padding-top: 10rem;
     font-weight: 600;
     color: #F59A83;
     text-transform: uppercase;
     margin-bottom: 2.5rem;
+    transform: skewY(-3deg);
     text-align: center; }
+    
+    
 
 .copyright {
   color: #968B87;
@@ -393,8 +399,9 @@ body {
     float: right; }
 
 .recipe {
-  background-color: #F9F5F3;
-  border-top: 1px solid #fff; }
+  background-color: rgba(255, 255, 255, 0);
+ /* background-color: #F9F5F3;*/
+  /*border-top: 1px solid #fff;*/ }
   .recipe__fig {
     height: 30rem;
     position: relative;
